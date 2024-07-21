@@ -1,8 +1,15 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
+# import os
+# from dotenv import load_dotenv
+
+# load_dotenv()
 
 #CREATE WEBAPP
 app = Flask(__name__)
+
+#API INFO
+
 
 #CREATE DB
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///starter.db"
